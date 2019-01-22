@@ -1,0 +1,89 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "indian facts",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "forget it",
+                        "never mind",
+                        "next fact",
+                        "next",
+                        "remove",
+                        "ignore",
+                        "cancel this fact",
+                        "cancel"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "can you help me",
+                        "what was that",
+                        "help me with this",
+                        "what is this",
+                        "help me",
+                        "help"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "exit",
+                        "stop this",
+                        "please stop",
+                        "stop"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GetNewFactIntent",
+                    "slots": [],
+                    "samples": [
+                        "facts about india",
+                        "give some information about india",
+                        "tell me about india",
+                        "about india",
+                        "tell me about it",
+                        "say some random fact",
+                        "say some random facts",
+                        "information about india",
+                        "some information about india",
+                        "give me some facts about india",
+                        "tell me something about india",
+                        "give me an amazing fact about india",
+                        "give me  a fact about india",
+                        "a fact about india",
+                        "tell me trivia about india",
+                        "amazing facts about india",
+                        "strange facts about india",
+                        "strange facts",
+                        "another fact that is strange",
+                        "a fact",
+                        "an strange fact",
+                        "tell me a fact",
+                        "give me a fact",
+                        "give me an strange fact",
+                        "give me a strange fact",
+                        "tell me trivia",
+                        "give me a strangetrivia",
+                        "give me an strange trivia",
+                        "give me some information",
+                        "give me some strange information",
+                        "tell me something",
+                        "give me something"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
